@@ -40,8 +40,7 @@ public class Calc22
     }
     
     //This method takes 2 values away from each other
-    public static void subtract()
-    {
+    public static void subtract() {
         System.out.println("Please enter your number: ");
         Scanner inputs = new Scanner(System.in);
         int firstNumber = inputs.nextInt();
@@ -50,4 +49,5 @@ public class Calc22
         int SecondNumber = inputs.nextInt();
 
         int total = firstNumber - SecondNumber;
+    }
 }
