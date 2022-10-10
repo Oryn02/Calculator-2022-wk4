@@ -8,6 +8,7 @@ public class Calc22
     {
       add();
       multiply();
+      subtract();
     }
     
     //This method takes in a value and multiplies
@@ -37,4 +38,16 @@ public class Calc22
         int total = firstNumber + secondNumber;
         System.out.println("The total is " + total);
     }
+    
+    //This method takes 2 values away from each other
+    public static void subtract()
+    {
+        System.out.println("Please enter your number: ");
+        Scanner inputs = new Scanner(System.in);
+        int firstNumber = inputs.nextInt();
+
+        System.out.println("PLease enter your second number: ");
+        int SecondNumber = inputs.nextInt();
+
+        int total = firstNumber - SecondNumber;
 }
